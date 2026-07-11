@@ -24,7 +24,8 @@ function draw() {
   rect(50, 50, 500, 300);
   circle(175, 150, 100);
   circle(425, 150, 100);
-  rect(250, 200, 100, 150)
+  rect(250, 200, 100, 150);
+  ellipse()
 
   // Challenge 4: A rocketship using triangle() function
 
