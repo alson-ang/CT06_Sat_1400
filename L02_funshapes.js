@@ -3,12 +3,13 @@ Task 1: Add the setup() function
 */
 function setup() {
   createCanvas(600, 400);  // (width, height)
-  background(255, 255, 0)
+  background(255, 255, 0);  
 }
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
-  ellipse()
+  ellipse(); // (x, y, width, height)
+
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
