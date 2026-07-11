@@ -3,7 +3,7 @@ Task 1: Add the setup() function
 */
 function setup() {
   createCanvas(600, 400);  // (width, height)
-  background("#80219d")
+  background(255, 255, 0)
 }
 
 function draw() {
