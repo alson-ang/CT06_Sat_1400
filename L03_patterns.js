@@ -20,7 +20,7 @@ function draw() {
   let one_word = 1; // Python: snake_case
   let oneWord = 2;  // JS: camelCase
 
-  // for i in range(0, 10, 1):
+  // for i in range(0, 10, 1):  // Python
   //   print(i); // 0 - 9
 
   // for (let i = 0; i < 10; i++) {
