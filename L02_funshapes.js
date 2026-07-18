@@ -45,7 +45,7 @@ function draw() {
   ellipse(360, 200, 50, 50);
   fill("#ff5927");  // ("#hex")
   ellipse(100, 60, 90, 80);
-  fill("#3e00dc");  // ("#hex")
+  fill("#00ffd5");  // ("#hex")
   ellipse(500, 60, 90, 80);
 
   // Challenge 6: Add some colours to the drawings in the above challenges
