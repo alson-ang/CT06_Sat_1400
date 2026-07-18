@@ -35,10 +35,9 @@ function draw() {
   quad(200, 250, 400, 250, 350, 300, 250, 300); // (x1, y1, x2, y2, x3, y3, x4, y4)
   ellipse(240, 170, 50, 70);
   ellipse(360, 200, 50, 50);
-  
   ellipse(100, 60, 90, 80);
-  
   ellipse(500, 60, 90, 80);
+  
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
