@@ -32,7 +32,7 @@ function draw() {
   
   // Challenge 5: A square face using quad() function
   quad(100, 50, 500, 50, 500, 350, 100, 350); // (x1, y1, x2, y2, x3, y3, x4, y4)
-
+  
   quad(200, 250, 400, 250, 350, 300, 250, 300);
 
   ellipse(240, 170, 50, 70);
