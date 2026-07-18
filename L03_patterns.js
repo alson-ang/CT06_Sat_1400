@@ -16,7 +16,9 @@ function draw() {
   let b = 20;
   const pi = 3.14159;
   const gravity = 9.81;
-  
+
+  let one_word = 1;
+  let one
 
   // Task 1: Colour Gradient
 
