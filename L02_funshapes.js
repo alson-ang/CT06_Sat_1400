@@ -39,8 +39,6 @@ function draw() {
 
   ellipse(300, 280, 150, 60); // Mouth
 
-  ellipse(300, 270, 140, 30); // Teeth
-
   ellipse(100, 60, 90, 80); // Ear
   ellipse(500, 60, 90, 80);
   // Challenge 6: Add some colours to the drawings in the above challenges
