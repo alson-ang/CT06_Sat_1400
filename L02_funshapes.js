@@ -38,7 +38,7 @@ function draw() {
 
   fill(150); // (grayscale 0-255)
   strokeWidth(10);
-  stroke(70, 150, 250); // (r, g, b)
+  stroke("#269d28");  // ("#hex")
   quad(200, 250, 400, 250, 350, 300, 250, 300); // (x1, y1, x2, y2, x3, y3, x4, y4)
 
   fill("#00dc04");  // ("#hex")
