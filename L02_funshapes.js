@@ -13,7 +13,7 @@ function draw() {
   // ellipse(300, 200, 150, 100);
 
   // Challenge 2: A face using circle() function
-  // circle(300, 200, 250);
+  // circle(300, 200, 250); // (x, y, width, height)
   // circle(175, 75, 100);
   // circle(425, 75, 100);
   // circle(250, 150, 30);
@@ -21,7 +21,7 @@ function draw() {
   // ellipse(300, 250, 150, 50);
 
   // Challenge 3: A house using rect() function
-  // rect(50, 50, 500, 300);
+  // rect(50, 50, 500, 300);  // (x, y, width, height)
   // circle(175, 150, 100);
   // circle(425, 150, 100);
   // rect(250, 200, 100, 150);
