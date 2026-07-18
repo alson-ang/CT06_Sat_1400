@@ -40,12 +40,10 @@ function draw() {
 
   ellipse(300, 280, 150, 60); // Mouth
 
-
   ellipse(300, 270, 140, 30); // Teeth
 
-  fill(255, 204, 0); // Yellow
-  ellipse(100, 60, 90, 80); // Ear left
-  ellipse(500, 60, 90, 80); // Funny ear
+  ellipse(100, 60, 90, 80); // Ear
+  ellipse(500, 60, 90, 80);
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
