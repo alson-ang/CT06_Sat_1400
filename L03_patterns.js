@@ -17,7 +17,7 @@ function draw() {
   const pi = 3.14159;
   const gravity = 9.81;
 
-  
+  pi = 2;
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
