@@ -33,13 +33,12 @@ function draw() {
   // Challenge 5: A square face using quad() function
   strokeWeight(10); // Outline thickness
   stroke(70, 150, 250); // Outline colour (r, g, b)
-
   fill(66, 179, 245); // Fill colour (r, g, b)
   rect(100, 50, 400, 300);
 
-  fill(150); // (grayscale 0-255)
   strokeWeight(5);  // Outline thickness
-  stroke("#2a2b2a");  // ("#hex")
+  stroke("#2a2b2a");  // Outline colour ("#hex")
+  fill(150); // (grayscale 0-255)
   quad(200, 250, 400, 250, 350, 300, 250, 300); // (x1, y1, x2, y2, x3, y3, x4, y4)
 
   fill("#00dc04");  // ("#hex")
