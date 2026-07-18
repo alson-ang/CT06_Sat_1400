@@ -17,7 +17,7 @@ function draw() {
   const pi = 3.14159;
   const gravity = 9.81;
 
-  let one_word = 1;
+  let one_word = 1; // Python: snake_case
   let oneWord = 2;
 
   // Task 1: Colour Gradient
