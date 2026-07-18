@@ -33,13 +33,13 @@ function draw() {
   // Challenge 5: A square face using quad() function
   quad(100, 50, 500, 50, 500, 350, 100, 350); // (x1, y1, x2, y2, x3, y3, x4, y4)
   
+  quad(100, 50, 500, 50, 500, 350, 100, 350); // Mouth
 
   ellipse(240, 170, 50, 70); // Left eye
   ellipse(360, 200, 50, 50); // Right eye
 
-  quad(100, 50, 500, 50, 500, 350, 100, 350); // Mouth
-
-  ellipse(100, 60, 90, 80); // Ear
+  ellipse(100, 60, 90, 80);
+  
   ellipse(500, 60, 90, 80);
   // Challenge 6: Add some colours to the drawings in the above challenges
 
