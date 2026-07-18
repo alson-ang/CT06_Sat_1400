@@ -30,7 +30,7 @@ function draw() {
   //   console.log(i);
   // }
   // Task 1: Colour Gradient
-  for (let i = 1; i < 10; i++) {
+  for (let i = 1; i <= 5; i++) {
     
   }
 
