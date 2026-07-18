@@ -41,11 +41,11 @@ function draw() {
   ellipse(240, 170, 50, 70);
 
   // noFill(); // No fill colour
-  fill("#ff8554");  // ("#hex")
+  fill("#ff54d7");  // ("#hex")
   ellipse(360, 200, 50, 50);
-  fill("#00dc04");  // ("#hex")
+  fill("#ff5927");  // ("#hex")
   ellipse(100, 60, 90, 80);
-  fill("#00dc04");  // ("#hex")
+  fill("#3e00dc");  // ("#hex")
   ellipse(500, 60, 90, 80);
 
   // Challenge 6: Add some colours to the drawings in the above challenges
