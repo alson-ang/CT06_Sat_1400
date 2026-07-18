@@ -18,7 +18,7 @@ function draw() {
   const gravity = 9.81;
 
   let one_word = 1; // Python: snake_case
-  let oneWord = 2;
+  let oneWord = 2;  // JS: camelCase
 
   // Task 1: Colour Gradient
 
