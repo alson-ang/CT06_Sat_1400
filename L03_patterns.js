@@ -30,6 +30,7 @@ function draw() {
   //   console.log(i);
   // }
   // Task 1: Colour Gradient
+  let 
   for (let i = 0; i < 5; i++) {
     fill(20, 20 + i * 50, 20);
     circle(50 + i * 50, 100, 40);
