@@ -32,7 +32,7 @@ function draw() {
   
   // Challenge 5: A square face using quad() function
   fill(66, 179, 245); // (r, g, b)
-  strokeWeight(10);
+  strokeWeight(10); // Outline thickness
   stroke(70, 150, 250); // (r, g, b)
   rect(100, 50, 400, 300);
 
