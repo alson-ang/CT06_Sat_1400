@@ -14,6 +14,7 @@ function draw() {
   let num = 5;
   let a = 10;
   let b = 20;
+  const 
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
