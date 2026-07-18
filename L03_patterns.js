@@ -27,6 +27,8 @@ function draw() {
     console.log(i);
   }
 
+  // For loop countdown from 10 - 0
+
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
