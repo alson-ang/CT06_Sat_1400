@@ -40,7 +40,7 @@ function draw() {
   fill("#00dc04");  // ("#hex")
   ellipse(240, 170, 50, 70);
 
-  noFill();
+  noFill(); // No fill colour
   ellipse(360, 200, 50, 50);
   ellipse(100, 60, 90, 80);
   ellipse(500, 60, 90, 80);
