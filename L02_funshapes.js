@@ -37,10 +37,10 @@ function draw() {
   fill(150); // (grayscale 0-255)
   quad(200, 250, 400, 250, 350, 300, 250, 300); // (x1, y1, x2, y2, x3, y3, x4, y4)
 
-  fill("#42b3f5");  // ("#hex")
+  fill("#ffd500");  // ("#hex")
   ellipse(240, 170, 50, 70);
 
-  
+  noFill();
   ellipse(360, 200, 50, 50);
   ellipse(100, 60, 90, 80);
   ellipse(500, 60, 90, 80);
