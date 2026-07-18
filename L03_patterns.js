@@ -11,7 +11,7 @@ function draw() {
   // circle(375, 200, 100);
   // circle(525, 200, 100);
 
-  let a = 5;
+  let num = 5;
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
