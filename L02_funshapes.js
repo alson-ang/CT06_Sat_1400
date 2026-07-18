@@ -33,7 +33,7 @@ function draw() {
   // Challenge 5: A square face using quad() function
   fill(66, 179, 245); // (r, g, b)
   fill("#42b3f5");  // ("#hex")
-  fill(0-255)
+  fill()
   rect(100, 50, 400, 300);
   quad(200, 250, 400, 250, 350, 300, 250, 300); // (x1, y1, x2, y2, x3, y3, x4, y4)
   ellipse(240, 170, 50, 70);
