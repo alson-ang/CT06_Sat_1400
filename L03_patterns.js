@@ -23,14 +23,12 @@ function draw() {
   // for i in range(0, 10, 1):
   //   print(i); // 0 - 9
 
-  for (let i = 0; i < 10; i++) {
-    console.log(i);
-  }
-
-  // For loop countdown from 10 - 0
-  for (let i = 10; i >= 0; i--) {
-    console.log(i);
-  }
+  // for (let i = 0; i < 10; i++) {
+  //   console.log(i);
+  // }
+  // for (let i = 10; i >= 0; i--) {
+  //   console.log(i);
+  // }
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
