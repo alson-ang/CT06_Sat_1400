@@ -18,7 +18,7 @@ function draw() {
   const gravity = 9.81;
 
   let one_word = 1;
-  let one
+  let oneWord = 2;
 
   // Task 1: Colour Gradient
 
