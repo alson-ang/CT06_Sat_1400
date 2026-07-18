@@ -31,7 +31,7 @@ function draw() {
   // }
   // Task 1: Colour Gradient
   for (let i = 0; i < 5; i++) {
-    fill(20 + i , 20 ,20);
+    fill(20 + i * 50, 20 ,20);
     circle(50 + i * 50, 100, 40);
   }
   // Task 2: Colour Loop
