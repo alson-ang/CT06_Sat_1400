@@ -31,9 +31,8 @@ function draw() {
   // }
   // Task 1: Colour Gradient
   for (let i = 1; i <= 5; i++) {
-    
+    console.log(i);
   }
-
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
