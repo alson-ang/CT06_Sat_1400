@@ -37,7 +37,7 @@ function draw() {
   ellipse(240, 170, 50, 70); // Left eye
   ellipse(360, 200, 50, 50); // Right eye
 
-  ellipse(300, 280, 150, 60); // Mouth
+  quad(100, 50, 500, 50, 500, 350, 100, 350); // Mouth
 
   ellipse(100, 60, 90, 80); // Ear
   ellipse(500, 60, 90, 80);
