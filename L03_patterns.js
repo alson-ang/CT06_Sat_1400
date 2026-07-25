@@ -1,3 +1,4 @@
+// Declare variables
 let colourValue;
 
 function setup() {
