@@ -70,5 +70,5 @@ function draw() {
   //   }
   // }
 
-  circle()
+  circle(width, height, )
 }
