@@ -36,7 +36,7 @@ function draw() {
   // let red = 10;
   // let green = 10;
   // let blue = 0;
-  // for (let i = 0; i < 5; i += 3) {
+  // for (let i = 0; i < 5; i++) {
   //   fill(red + i * 50, green + i * 50, blue);
   //   circle(50 + i * 50, 100, 40);
   // }
@@ -48,7 +48,6 @@ function draw() {
 
   // Task 3: Row of Circles
   for (let i = 0; i <= 5; i++) {
-
     circle(50 + i * 50, 100, 40);
   }
 
