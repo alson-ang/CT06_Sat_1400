@@ -59,6 +59,8 @@ function draw() {
 
   // Task 4: Grid of Circles
   for (row = 0; row < 5; row++) {
-    
+    for (col = 0; col < 5; col++) {
+      
+    }
   }
 }
