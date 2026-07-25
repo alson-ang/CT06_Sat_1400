@@ -14,14 +14,14 @@ function draw() {
   // circle(375, 200, 100);
   // circle(525, 200, 100);
 
-  let num = 5;
-  let a = 10;
-  let b = 20;
-  const pi = 3.14159;
-  const gravity = 9.81;
+  // let num = 5;
+  // let a = 10;
+  // let b = 20;
+  // const pi = 3.14159;
+  // const gravity = 9.81;
 
-  let one_word = 1; // Python: snake_case
-  let oneWordTwoWords = 2;  // JS: camelCase
+  // let one_word = 1; // Python: snake_case
+  // let oneWordTwoWords = 2;  // JS: camelCase
 
   // for i in range(0, 10, 1):  // Python
   //   print(i); // 0 - 9
@@ -42,9 +42,9 @@ function draw() {
   // }
 
   // Task 2: Colour Loop
-  circle(100, 100, 100);  // (x, y, diameter)
-  fill(colourValue);  // (grayscale) 0 - 255 black to white
-  colourValue++;
+  // circle(100, 100, 100);  // (x, y, diameter)
+  // fill(colourValue);  // (grayscale) 0 - 255 black to white
+  // colourValue++;
 
   // Task 3: Row of Circles
 
