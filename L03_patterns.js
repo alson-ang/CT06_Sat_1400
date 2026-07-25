@@ -50,8 +50,10 @@ function draw() {
   for (let i = 0; i <= 5; i++) {
     if (i % 2 == 0) {
       fill(0);
-    } else
-    fill(); // 0 - 255
+    } else {
+      fill(255); // 0 - 255  
+    }
+    
     circle(50 + i * 50, 100, 40);
   }
 
