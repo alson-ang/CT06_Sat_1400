@@ -43,7 +43,7 @@ function draw() {
 
   // Task 2: Colour Loop
   circle(100, 100, 100);  // (x, y, diameter)
-  fill(colourValue);  // (grayscale) 0 - 255
+  fill(colourValue);  // (grayscale) 0 - 255 black to white
   colourValue++;
 
   // Task 3: Row of Circles
