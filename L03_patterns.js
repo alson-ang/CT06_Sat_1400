@@ -80,7 +80,7 @@ function draw() {
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
   let startY = (height - totalWidth) / 2 + circleDiameter / 2;
 
-  for (row = 0; row < 5; row++) {
+  for (row = 0; row < 10; row++) {
     // Each row's starting y-pos
     let rowY = startY + (circleDiameter * row);
 
