@@ -2,6 +2,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // noLoop(); // Stops continuous drawing
+    
   }
   
 function draw() {
@@ -40,7 +41,7 @@ function draw() {
 
   // Task 2: Colour Loop
   circle(100, 100, 100);  // (x, y, diameter)
-  fill(colorValue);
+  fill(colourValue);
 
   // Task 3: Row of Circles
 
