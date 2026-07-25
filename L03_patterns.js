@@ -47,7 +47,7 @@ function draw() {
   // colourValue++;
 
   // Task 3: Row of Circles
-  for (let i = 0; i < 5; i += 3) {
+  for (let i = 0; i <= 5; i++) {
 
     circle(50 + i * 50, 100, 40);
   }
