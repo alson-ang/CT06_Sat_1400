@@ -18,7 +18,7 @@ function draw() {
   const gravity = 9.81;
 
   let one_word = 1; // Python: snake_case
-  let oneWord = 2;  // JS: camelCase
+  let oneWordTwoWords = 2;  // JS: camelCase
 
   // for i in range(0, 10, 1):  // Python
   //   print(i); // 0 - 9
