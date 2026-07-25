@@ -61,7 +61,7 @@ function draw() {
   for (row = 0; row < 5; row++) {
     for (col = 0; col < 5; col++) {
       fill(0);
-      rect(c * 50, r * 50, 50, 50);
+      rect(col * 50, row * 50, 50, 50);
     }
   }
 }
