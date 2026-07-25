@@ -70,5 +70,5 @@ function draw() {
   //   }
   // }
 
-  c
+  circle()
 }
