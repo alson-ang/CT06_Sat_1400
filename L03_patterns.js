@@ -72,12 +72,9 @@ function draw() {
 
   // circle(width / 2, height / 2, height);
 
-  let circleDiameter = 30;​
-
-    let numCircles = 5;​
-
-    let totalWidth = numCircles * circleDiameter;​
-
+  let circleDiameter = 30;
+    let numCircles = 5;
+    let totalWidth = numCircles * circleDiameter;
     // Calculate starting x for centering​
     let startX = (width - totalWidth) / 2 + circleDiameter / 2;
     for (let i = 0; i < numCircles; i++) {
