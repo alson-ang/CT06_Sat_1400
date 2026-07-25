@@ -81,9 +81,9 @@ function draw() {
 
   for (row = 0; row < 5; row++) {
     for (let i = 0; i < numCircles; i++) {
-    let x = startX + i * circleDiameter;
-    ellipse(x, height / 2, circleDiameter, circleDiameter);
-  }
+      let x = startX + i * circleDiameter;
+      ellipse(x, height / 2, circleDiameter, circleDiameter);
+    }
   }
   
 }
