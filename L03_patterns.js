@@ -2,7 +2,7 @@
 let colourValue = 0;
 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(200, 200);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
@@ -75,7 +75,7 @@ function draw() {
   let circleDiameter = 30;
   let numCircles = 5;
   let totalWidth = numCircles * circleDiameter;
-  
+
   // Calculate starting x for centering​
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
   for (let i = 0; i < numCircles; i++) {
