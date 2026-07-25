@@ -33,7 +33,7 @@ function draw() {
   let red = 10;
   let green = 10;
   let blue = 0;
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; i += 3) {
     fill(red + i * 50, green + i * 50, blue);
     circle(50 + i * 50, 100, 40);
   }
