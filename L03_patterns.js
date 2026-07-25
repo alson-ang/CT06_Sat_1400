@@ -78,6 +78,7 @@ function draw() {
 
   // Calculate starting x for centering​
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+  let startY = (width - totalWidth) / 2 + circleDiameter / 2;
 
   for (row = 0; row < 5; row++) {
     for (let i = 0; i < numCircles; i++) {
