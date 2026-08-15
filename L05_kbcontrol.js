@@ -20,7 +20,5 @@ function keyPressed() {
         fill("green");
     } else {
         fill("yellow");
-        fill(248,253,112);
-        fill("#25a0a5");
     }
 }
