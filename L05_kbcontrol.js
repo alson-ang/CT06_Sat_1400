@@ -19,8 +19,9 @@ function draw() {
     }
 
     if (x < 25) {
-        
+        x = 25;
     }
+    
 }
 
 function keyPressed() {
