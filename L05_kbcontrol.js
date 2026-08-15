@@ -11,7 +11,7 @@ function draw() {
     circle(100, 100, 50);
 
     if (keyIsDown(RIGHT_ARROW)) {
-
+        x += 5
     }
 }
 
