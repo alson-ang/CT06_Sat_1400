@@ -20,6 +20,6 @@ function keyPressed() {
         fill("green");
     } else {
         fill("yellow");
-        fill()
+        fill(255, 255, 255); 
     }
 }
