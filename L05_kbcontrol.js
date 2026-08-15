@@ -24,7 +24,12 @@ function draw() {
     //     x = width - 25;
     // }
 
-    
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += 5;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    }
 }
 
 function keyPressed() {
