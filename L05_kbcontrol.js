@@ -1,3 +1,5 @@
+let x = 0;
+
 function setup() {
     createCanvas(200,200);
     background(220);
@@ -9,7 +11,7 @@ function draw() {
     circle(100, 100, 50);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        
+
     }
 }
 
