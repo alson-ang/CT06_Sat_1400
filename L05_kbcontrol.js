@@ -20,3 +20,7 @@ function keyPressed() {
         fill("yellow");
     }
 }
+
+function mouseMoved() {
+    
+}
