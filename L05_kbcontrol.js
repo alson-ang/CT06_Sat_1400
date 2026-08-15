@@ -1,5 +1,6 @@
 let x = 100;
 let y = 100;
+let direction = "up";
 
 function setup() {
     createCanvas(200,200);
@@ -26,10 +27,15 @@ function draw() {
 
     if (keyIsDown(UP_ARROW)) {
         y -= 2;
-
+        direction = "up";
     }
     if (keyIsDown(DOWN_ARROW)) {
         y += 2;
+        direction = "down";
+    }
+
+    if (direction == "up") {
+        
     }
 }
 
