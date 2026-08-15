@@ -7,21 +7,23 @@ function setup() {
 
 function draw() {
     background(220);
-    circle(x, 100, 50);
-    // Movement
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 5;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        x -= 5;
-    }
-    // Boundary
-    if (x < 25) {
-        x = 25;
-    }
-    if (x > width - 25) {
-        x = width - 25;
-    }
+    // circle(x, 100, 50);
+    // // Movement
+    // if (keyIsDown(RIGHT_ARROW)) {
+    //     x += 5;
+    // }
+    // if (keyIsDown(LEFT_ARROW)) {
+    //     x -= 5;
+    // }
+    // // Boundary
+    // if (x < 25) {
+    //     x = 25;
+    // }
+    // if (x > width - 25) {
+    //     x = width - 25;
+    // }
+
+    
 }
 
 function keyPressed() {
