@@ -24,10 +24,10 @@ function draw() {
     //     x = width - 25;
     // }
 
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown(UP_ARROW)) {
         x += 5;
     }
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown(DOWN_ARROW)) {
         x -= 5;
     }
 }
