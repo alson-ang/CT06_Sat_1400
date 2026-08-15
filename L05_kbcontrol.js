@@ -21,6 +21,6 @@ function keyPressed() {
     } else {
         fill("yellow");
         fill(248,253,112);
-        fill("#34e5eb") 
+        fill("#25a0a5");
     }
 }
