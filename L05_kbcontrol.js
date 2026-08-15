@@ -12,7 +12,9 @@ function draw() {
 }
 
 function keyPressed() {
-    if (key == "w") {
-        fill()
+    if (key === "w") {
+        fill("white");
+    } else if (key === "r") {
+        
     }
 }
