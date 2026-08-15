@@ -7,6 +7,10 @@ function draw() {
     background(220);
 
     circle(100, 100, 50);
+
+    if (keyIsDown(RIGHT_ARROW)) {
+        
+    }
 }
 
 function keyPressed() {
