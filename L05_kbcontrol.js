@@ -16,5 +16,9 @@ function keyPressed() {
         fill("white");
     } else if (key === "r") {
         fill("red");
-    } else if (key === "g")
+    } else if (key === "g") {
+        fill("green");
+    } else {
+        
+    }
 }
