@@ -22,5 +22,7 @@ function keyPressed() {
 }
 
 function mouseMoved() {
-    
+    if (mouseX < 75) {
+        
+    }
 }
