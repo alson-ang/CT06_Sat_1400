@@ -11,11 +11,15 @@ function draw() {
     circle(x, 100, 50);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        x += 5
+        x += 5;
     }
 
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 5
+    if (keyIsDown(LEFT_ARROW)) {
+        x -= 5;
+    }
+
+    if (x < 25) {
+        
     }
 }
 
