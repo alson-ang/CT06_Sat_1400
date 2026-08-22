@@ -1,5 +1,7 @@
-let soundEffect, bgMusic, staticImage;
+let soundEffect, bgMusic;
+staticImage;
 let spriteX = 300, spriteY = 300;
+let staticImageX = 100, staticImageY = 280;
 let staticSpeed = 5; // Speed of static image movement
 
 function preload() {
@@ -38,6 +40,7 @@ function draw() {
     // Draw the static image
     image(staticImage, staticImageX, staticImageY, 100, 100); // Display static image
 }
+
 function keyPressed() {
     if (keyCode === 32) { // Spacebar to trigger sound effect
         soundEffect.play();
