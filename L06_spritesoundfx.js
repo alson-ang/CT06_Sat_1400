@@ -3,7 +3,7 @@ let y = 100;
 let direction = "up";
 
 function setup() {
-    createCanvas(200,200);
+    createCanvas(400, 400);
     background(220);
 }
 
