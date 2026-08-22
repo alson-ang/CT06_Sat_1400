@@ -16,7 +16,13 @@ function setup() {
 function draw() {
     background("lightblue");
     
-    // Move the static image left and right
+    // Movement
+    if (keyIsDown(LEFT_ARROW)) {
+        staticImageX -= staticSpeed;
+    }
+    if (keyIsDown(RIGHT_ARROW)) {
+        staticImageX += staticSpeed;
+    }
     if (keyIsDown(LEFT_ARROW)) {
         staticImageX -= staticSpeed;
     }
