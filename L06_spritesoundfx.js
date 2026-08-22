@@ -24,7 +24,7 @@ function draw() {
         x += 2;
     }
 
-    x = constrain(y, 0, height);    // (value, min, max)
+    x = constrain(x, 50, height);    // (value, min, max)
     y = constrain(y, 0, height);    // (value, min, max)
 
     rect(x, y, 50, 50); // (x pos, y pos, width size, height size);
