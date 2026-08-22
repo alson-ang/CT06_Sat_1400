@@ -34,7 +34,8 @@ function draw() {
     
     // Check if x / y is at min or max
     if (x === 0 || x === width - 100) {
-        
+        background("red");
+        popSound
     }
 
     // Constrain static image within canvas boundaries
