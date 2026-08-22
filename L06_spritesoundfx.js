@@ -32,6 +32,8 @@ function draw() {
         x += speed;
     }
     
+    // Check if x / y is at 
+
     // Constrain static image within canvas boundaries
     x = constrain(x, 0, width - 100);
     y = constrain(y, 0, height - 100);
