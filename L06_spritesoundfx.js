@@ -1,6 +1,6 @@
 let soundEffect; 
 let bgMusic; 
-staticImage;
+let staticImage;
 let x = 100, y = 280;
 let speed = 5;
 
