@@ -36,7 +36,7 @@ function draw() {
     if (x === 0 || x === width - 100 || y === 0 || y === height - 100) {
         background("red");
 
-        if ()
+        if (soundEffect.isPlaying())
         soundEffect.play();
     }
 
