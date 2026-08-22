@@ -33,7 +33,7 @@ function draw() {
     }
     
     // Check if x / y is at min or max
-    if (x === 0 || x === width - 100 || y === 0 || y height - 100) {
+    if (x === 0 || x === width - 100 || y === 0 || y === height - 100) {
         background("red");
         soundEffect.play();
     }
