@@ -18,10 +18,10 @@ function draw() {
     
     // Movement
     if (keyIsDown(UP_ARROW)) {
-        x -= staticSpeed;
+        y -= staticSpeed;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        x += staticSpeed;
+        y += staticSpeed;
     }
     if (keyIsDown(LEFT_ARROW)) {
         x -= staticSpeed;
@@ -31,7 +31,7 @@ function draw() {
     }
     
     // Constrain static image within canvas boundaries
-    staticImageX = constrain(staticImageX, 0, width - 100);
+    x = constrain(x, 0, width - 100);
     
     // Draw the static image
     image(staticImage, staticImageX, staticImageY, 100, 100); // Display static image
