@@ -12,11 +12,9 @@ function draw() {
 
     if (keyIsDown(UP_ARROW)) {
         y -= 2;
-        direction = "up";
     }
     if (keyIsDown(DOWN_ARROW)) {
         y += 2;
-        direction = "down";
     }
 
     
