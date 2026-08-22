@@ -39,7 +39,7 @@ function draw() {
         // Prevent overlapping sounds
         if (!soundEffect.isPlaying()) {
             soundEffect.play();
-        }            
+        }
     }
 
 
