@@ -32,7 +32,7 @@ function draw() {
     
     // Constrain static image within canvas boundaries
     x = constrain(x, 0, width - 100);
-    y = constrain(x, 0, height - 100);
+    y = constrain(y, 0, height - 100);
     
     // Draw the static image
     image(staticImage, x, y, 100, 100); // (image, x pos, y pos, width size, height size);
