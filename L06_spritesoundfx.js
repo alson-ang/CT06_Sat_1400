@@ -35,22 +35,8 @@ function draw() {
     }
 
     y = constrain(y, 0, height);    // (value, min, max)
-
-    if (direction == "up") {
-        triangle(75, y + 50, 100, y, 125, y + 50);
-    } else if (direction == "down") {
-        triangle(75, y - 50, 100, y, 125, y - 50);
-    }
 }
 
 function keyPressed() {
-    if (key === "w") {
-        fill("white");
-    } else if (key === "r") {
-        fill("red");
-    } else if (key === "g") {
-        fill("green");
-    } else {
-        fill("yellow");
-    }
+
 }
