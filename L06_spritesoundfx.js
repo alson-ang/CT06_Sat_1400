@@ -21,6 +21,8 @@ function draw() {
 
     
     y = constrain(y, 0, height);    // (value, min, max)
+
+    rect( || )
 }
 
 function keyPressed() {
