@@ -17,10 +17,10 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)) {
         y += 2;
     }
-    if (keyIsDown(UP_ARROW)) {
+    if (keyIsDown(LEFT_ARROW)) {
         y -= 2;
     }
-    if (keyIsDown(DOWN_ARROW)) {
+    if (keyIsDown(RIGHT_ARROW)) {
         y += 2;
     }
 
