@@ -22,7 +22,7 @@ function draw() {
     
     y = constrain(y, 0, height);    // (value, min, max)
 
-    rect()
+    rect(x, y, 50, 50)
 }
 
 function keyPressed() {
