@@ -7,10 +7,16 @@ function setup() {
 }
 
 function draw() {
-    // Reset 
+    // Reset drawing
     background(220);
 
-
+    // Movement
+    if (keyIsDown(UP_ARROW)) {
+        y -= 2;
+    }
+    if (keyIsDown(DOWN_ARROW)) {
+        y += 2;
+    }
     if (keyIsDown(UP_ARROW)) {
         y -= 2;
     }
