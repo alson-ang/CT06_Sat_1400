@@ -36,11 +36,10 @@ function draw() {
     if (x === 0 || x === width - 100 || y === 0 || y === height - 100) {
         background("red");
 
+        // Prevent overlapping sounds
         if (!soundEffect.isPlaying()) {
-            
-        }
-            
-        soundEffect.play();
+            soundEffect.play();
+        }            
     }
 
 
