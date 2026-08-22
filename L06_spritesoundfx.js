@@ -1,6 +1,4 @@
-let soundEffect, bgMusic;
-staticImage;
-let spriteX = 300, spriteY = 300;
+let soundEffect, bgMusic, staticImage;
 let staticImageX = 100, staticImageY = 280;
 let staticSpeed = 5; // Speed of static image movement
 
