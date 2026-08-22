@@ -1,6 +1,6 @@
 let soundEffect, bgMusic, staticImage;
 let x = 100, y = 280;
-let staticSpeed = 5; // Speed of static image movement
+let speed = 5;
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
@@ -18,16 +18,16 @@ function draw() {
     
     // Movement
     if (keyIsDown(UP_ARROW)) {
-        y -= staticSpeed;
+        y -= speed;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        y += staticSpeed;
+        y += speed;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        x -= staticSpeed;
+        x -= speed;
     }
     if (keyIsDown(RIGHT_ARROW)) {
-        x += staticSpeed;
+        x += speed;
     }
     
     // Constrain static image within canvas boundaries
