@@ -1,6 +1,5 @@
 let x = 100;
 let y = 100;
-let direction = "up";
 
 function setup() {
     createCanvas(400, 400);
