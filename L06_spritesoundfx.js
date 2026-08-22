@@ -33,7 +33,9 @@ function draw() {
     }
     
     // Check if x / y is at min or max
-    if (x === 0 || x === width - 100)
+    if (x === 0 || x === width - 100) {
+        
+    }
 
     // Constrain static image within canvas boundaries
     x = constrain(x, 0, width - 100);
