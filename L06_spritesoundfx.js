@@ -35,7 +35,7 @@ function draw() {
     y = constrain(x, 0, width - 100);
     
     // Draw the static image
-    image(staticImage, x, y, 100, 100); // (image, x pos, y pos, )
+    image(staticImage, x, y, 100, 100); // (image, x pos, y pos, width size, height size);
 }
 
 function keyPressed() {
