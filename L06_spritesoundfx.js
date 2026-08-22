@@ -9,7 +9,7 @@ function setup() {
 function draw() {
     background(220);
 
-    if (keyIsDown(32)) {
+    if (keyIsDown(SPA)) {
         y -= 2;
     }
     if (keyIsDown(DOWN_ARROW)) {
