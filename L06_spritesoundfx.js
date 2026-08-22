@@ -1,5 +1,5 @@
 let soundEffect, bgMusic, staticImage;
-let staticImageX = 100, staticImageY = 280;
+let x = 100, staticImageY = 280;
 let staticSpeed = 5; // Speed of static image movement
 
 function preload() {
@@ -17,10 +17,10 @@ function draw() {
     background("lightblue");
     
     // Movement
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown(UP_ARROW)) {
         staticImageX -= staticSpeed;
     }
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown(DOWN_ARROW)) {
         staticImageX += staticSpeed;
     }
     if (keyIsDown(LEFT_ARROW)) {
