@@ -19,11 +19,9 @@ function draw() {
     // Move the static image left and right
     if (keyIsDown(LEFT_ARROW)) {
         staticImageX -= staticSpeed;
-        // soundEffect.play();
     }
     if (keyIsDown(RIGHT_ARROW)) {
         staticImageX += staticSpeed;
-        // soundEffect.play();
     }
     
     // Constrain static image within canvas boundaries
