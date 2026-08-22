@@ -11,12 +11,6 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     bgMusic.loop(); // Play background music in a loop. 
-    // browser will block until user action. so need to press space key
-    
-    // Extract individual frames from the sprite sheet (assuming 4 frames in a row)
-    // for (let i = 0; i < 4; i++) {
-    //     spriteFrames.push(spriteSheet.get(i * 32, 0, 32, 32)); // Assuming each frame is 32x32
-    // }
 }
 
 function draw() {
