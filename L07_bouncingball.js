@@ -14,7 +14,20 @@ function setup() {
 function draw() {
     background("gray");
 
-    
+    // Movement
+    if (keyIsDown(UP_ARROW)) {
+        y -= speed;
+    }
+    if (keyIsDown(DOWN_ARROW)) {
+        y += speed;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        x -= speed;
+    }
+    if (keyIsDown(RIGHT_ARROW)) {
+        x += speed;
+    }
 
+    // Draw pico
     image(picoImage, width / 2, height / 2, 100, 100);  // (image, x pos, y pos, width, height)
 }
