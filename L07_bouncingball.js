@@ -71,7 +71,7 @@ function draw() {
     ballX += ballSpeedX;
     ballY += ballSpeedY;
 
-
+    // Bounce on 
 
     // stroke - outline, fill - colour
     noStroke(); // Remove outline
