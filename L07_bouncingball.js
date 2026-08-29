@@ -32,8 +32,8 @@ function draw() {
     }
 
     // Constrain static image within canvas boundaries
-    x = constrain(x, 0, width);   // (variable, min, max)
-    y = constrain(y, 0, height);
+    x = constrain(x, 0, width - 100);   // (variable, min, max)
+    y = constrain(y, 0, height - 100);
 
     // Draw pico
     image(picoImage, x, y, 100, 100);  // (image, x pos, y pos, width, height)
