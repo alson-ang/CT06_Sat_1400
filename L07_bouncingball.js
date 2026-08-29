@@ -66,7 +66,6 @@ function setup() {
 }
 
 function draw() {
-
     // Movement
     ballX += ballSpeedX;
     ballY += ballSpeedY;
