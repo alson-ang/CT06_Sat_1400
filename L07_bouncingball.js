@@ -82,7 +82,6 @@ function draw() {
 
     // stroke - outline, fill - colour
     noStroke(); // Remove outline
-    
 
     circle(ballX, ballY, ballSize); // (x, y, diameter)
 }
