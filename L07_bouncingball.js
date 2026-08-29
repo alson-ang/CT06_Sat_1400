@@ -50,6 +50,6 @@ function keyPressed() {
 
 function keyReleased() {
     if (key === " ") { 
-        picoWidth = 50;
+        picoWidth = 100;
     }
 }
