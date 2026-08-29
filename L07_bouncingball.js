@@ -31,5 +31,5 @@ function draw() {
     }
 
     // Draw pico
-    image(picoImage, width / 2, height / 2, 100, 100);  // (image, x pos, y pos, width, height)
+    image(picoImage, x, y, 100, 100);  // (image, x pos, y pos, width, height)
 }
