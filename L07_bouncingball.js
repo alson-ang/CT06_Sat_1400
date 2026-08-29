@@ -1,6 +1,7 @@
 // Recap 1
 let picoImage;
 let popSound;
+
 let x = width / 2;
 let y = height / 2;
 
