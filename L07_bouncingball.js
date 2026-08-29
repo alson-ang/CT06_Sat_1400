@@ -42,14 +42,14 @@ function draw() {
 
 function keyPressed() {
     // Spacebar to trigger sound effect
-    if (key === "a") { 
+    if (key === " ") { 
         popSound.play();
         picoWidth = 50;
     }
 }
 
 function keyReleased() {
-    if (key === " ") { 
+    if (keyCode === 32) { 
         picoWidth = 100;
     }
 }
