@@ -67,7 +67,7 @@ function draw() {
 
     // stroke - outline, fill - colour
     noStroke();
-    fill()
+    fill("#fac002");
 
     circle(ballX, ballY, ballSize); // (x, y, diameter)
 }
