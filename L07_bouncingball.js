@@ -1,2 +1,7 @@
 // Recap 1
-let pico
+let picoImage;
+let popSound;
+
+function preload() {
+    
+}
