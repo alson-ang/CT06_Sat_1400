@@ -55,7 +55,7 @@
 // }
 
 function setup() {
-    c
+    createCanvas(600, 400);
 }
 
 function draw() {
