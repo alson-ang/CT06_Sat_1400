@@ -13,6 +13,6 @@ function setup() {
 
 function draw() {
     background("gray");
-    
 
+    image(staticImage, x, y, 100, 100);
 }
