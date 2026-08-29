@@ -44,5 +44,6 @@ function keyPressed() {
     // Spacebar to trigger sound effect
     if (key === " ") { 
         popSound.play();
+        picoWidth = 50;
     }
 }
