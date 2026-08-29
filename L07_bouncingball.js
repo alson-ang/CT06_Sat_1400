@@ -54,7 +54,9 @@
 //     }
 // }
 
-
+let ballX = 300;
+let ballY = 200;
+let ballSize = 50;
 
 function setup() {
     createCanvas(600, 400);
@@ -63,5 +65,5 @@ function setup() {
 function draw() {
     background(220); // (0 - 255) grayscale
 
-    
+    circle(ballX, ballY, ballSize); // (x, y, diameter)
 }
