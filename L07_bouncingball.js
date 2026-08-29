@@ -62,10 +62,10 @@ let ballSpeedY = 2;
 
 function setup() {
     createCanvas(600, 400);
+    background(220); // (0 - 255) grayscale
 }
 
 function draw() {
-    background(220); // (0 - 255) grayscale
 
     // Movement
     ballX += ballSpeedX;
