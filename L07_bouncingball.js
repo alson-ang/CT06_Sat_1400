@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-    backgroun("gray");
-
+    background("gray");
+    
 
 }
