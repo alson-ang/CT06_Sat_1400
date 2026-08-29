@@ -66,7 +66,7 @@ function draw() {
     background(220); // (0 - 255) grayscale
 
     // stroke - outline, fill - colour
-    noStroke();
+    noStroke(); // Remove outline
     fill("#fac002");
 
     circle(ballX, ballY, ballSize); // (x, y, diameter)
