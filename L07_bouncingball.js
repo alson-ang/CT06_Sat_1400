@@ -42,7 +42,8 @@ function draw() {
 }
 
 function keyPressed() {
-    if (keyCode === 32) { // Spacebar to trigger sound effect
+    // Spacebar to trigger sound effect
+    if (keyCode === 32) { 
         popSound.play();
     }
 }
