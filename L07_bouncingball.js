@@ -36,10 +36,8 @@ function draw() {
     x = constrain(x, 0, width - 100);   // (variable, min, max)
     y = constrain(y, 0, height - 100);
 
-    
-
     // Draw pico
-    image(picoImage, x, y, 100, 100);  // (image, x pos, y pos, width, height)
+    image(picoImage, x, y, picoWidth, 100);  // (image, x pos, y pos, width, height)
 }
 
 function keyPressed() {
