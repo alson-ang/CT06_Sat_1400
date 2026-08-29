@@ -57,6 +57,8 @@
 let ballX = 300;
 let ballY = 200;
 let ballSize = 50;
+let ballSpeedX = 5;
+let ballSpeedX = 5;
 
 function setup() {
     createCanvas(600, 400);
@@ -65,7 +67,7 @@ function setup() {
 function draw() {
     background(220); // (0 - 255) grayscale
 
-    
+
 
     // stroke - outline, fill - colour
     noStroke(); // Remove outline
