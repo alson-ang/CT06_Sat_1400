@@ -40,3 +40,9 @@ function draw() {
     // Draw pico
     image(picoImage, x, y, 100, 100);  // (image, x pos, y pos, width, height)
 }
+
+function keyPressed() {
+    if (keyCode === 32) { // Spacebar to trigger sound effect
+        soundEffect.play();
+    }
+}
