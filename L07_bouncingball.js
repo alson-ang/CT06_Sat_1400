@@ -61,5 +61,7 @@ function setup() {
 }
 
 function draw() {
-    background(220); // (0 - 255)
+    background(220); // (0 - 255) grayscale
+
+    
 }
