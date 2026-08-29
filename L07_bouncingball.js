@@ -65,7 +65,7 @@ function setup() {
 function draw() {
     background(220); // (0 - 255) grayscale
 
-    // stroke 
+    // stroke - outline, fill - co
 
     circle(ballX, ballY, ballSize); // (x, y, diameter)
 }
