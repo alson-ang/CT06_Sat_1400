@@ -18,16 +18,16 @@ function draw() {
 
     // Movement
     if (keyIsDown(UP_ARROW)) {
-        y -= speed;
+        y -= 5;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        y += speed;
+        y += 5;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        x -= speed;
+        x -= 5;
     }
     if (keyIsDown(RIGHT_ARROW)) {
-        x += speed;
+        x += 5;
     }
 
     // Draw pico
