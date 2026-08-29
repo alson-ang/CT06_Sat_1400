@@ -13,4 +13,6 @@ function setup() {
 
 function draw() {
     background("gray");
+
+    
 }
