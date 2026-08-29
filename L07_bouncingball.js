@@ -73,7 +73,7 @@ function draw() {
     // Bounce on edge - invert speed
     if (ballX <= 0 + ballSize / 2 || ballX >= width - ballSize / 2) {
         ballSpeedX *= -1;
-        fill(random(0), random(0), random(0));
+        fill(random(255), random(0), random(0));
     }
     if (ballY <= 0 + ballSize / 2 || ballY >= height - ballSize / 2) {
         ballSpeedY *= -1;
