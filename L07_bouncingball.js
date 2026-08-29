@@ -73,7 +73,7 @@ function draw() {
 
     // Bounce on edge
     if (ballX <= 0 || ballX >= width) {
-        ballSpeedX *= -1
+        ballSpeedX *= -1;
     }
 
     // stroke - outline, fill - colour
