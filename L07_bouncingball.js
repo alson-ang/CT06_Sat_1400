@@ -54,4 +54,10 @@
 //     }
 // }
 
-function setup()
+function setup() {
+    c
+}
+
+function draw() {
+
+}
