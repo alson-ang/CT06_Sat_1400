@@ -77,6 +77,7 @@ function draw() {
     }
     if (ballY <= 0 + ballSize / 2 || ballY >= height - ballSize / 2) {
         ballSpeedY *= -1;
+        fill(random(255), random(255), random(255));
     }
 
     // stroke - outline, fill - colour
