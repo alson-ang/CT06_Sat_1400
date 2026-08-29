@@ -67,8 +67,11 @@ function setup() {
 function draw() {
     background(220); // (0 - 255) grayscale
 
+    // Movement
     ballX += ballSpeedX;
     ballY += ballSpeedY;
+
+
 
     // stroke - outline, fill - colour
     noStroke(); // Remove outline
