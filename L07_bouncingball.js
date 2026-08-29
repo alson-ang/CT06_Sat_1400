@@ -1,55 +1,56 @@
-// Recap 1
-let picoImage;
-let popSound;
+// // Recap 1
+// let picoImage;
+// let popSound;
 
-let x = 0;
-let y = 0;
-let picoWidth = 100;
+// let x = 0;
+// let y = 0;
+// let picoWidth = 100;
 
-function preload() {
-    picoImage = loadImage("assets/pico-a.png");
-    popSound = loadSound("assets/pop.mp3");
-}
+// function preload() {
+//     picoImage = loadImage("assets/pico-a.png");
+//     popSound = loadSound("assets/pop.mp3");
+// }
 
-function setup() {
-    createCanvas(600, 400);
-}
+// function setup() {
+//     createCanvas(600, 400);
+// }
 
-function draw() {
-    background("gray");
+// function draw() {
+//     background("gray");
 
-    // Movement
-    if (keyIsDown(UP_ARROW)) {
-        y -= 5;
-    }
-    if (keyIsDown(DOWN_ARROW)) {
-        y += 5;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        x -= 5;
-    }
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 5;
-    }
+//     // Movement
+//     if (keyIsDown(UP_ARROW)) {
+//         y -= 5;
+//     }
+//     if (keyIsDown(DOWN_ARROW)) {
+//         y += 5;
+//     }
+//     if (keyIsDown(LEFT_ARROW)) {
+//         x -= 5;
+//     }
+//     if (keyIsDown(RIGHT_ARROW)) {
+//         x += 5;
+//     }
 
-    // Constrain static image within canvas boundaries
-    x = constrain(x, 0, width - 100);   // (variable, min, max)
-    y = constrain(y, 0, height - 100);
+//     // Constrain static image within canvas boundaries
+//     x = constrain(x, 0, width - 100);   // (variable, min, max)
+//     y = constrain(y, 0, height - 100);
 
-    // Draw pico
-    image(picoImage, x, y, picoWidth, 100);  // (image, x pos, y pos, width, height)
-}
+//     // Draw pico
+//     image(picoImage, x, y, picoWidth, 100);  // (image, x pos, y pos, width, height)
+// }
 
-function keyPressed() {
-    // Spacebar to trigger sound effect
-    if (key === " ") { 
-        popSound.play();
-        picoWidth = 50;
-    }
-}
+// function keyPressed() {
+//     // Spacebar to trigger sound effect
+//     if (key === " ") { 
+//         popSound.play();
+//         picoWidth = 50;
+//     }
+// }
 
-function keyReleased() {
-    if (key === " ") { 
-        picoWidth = 100;
-    }
-}
+// function keyReleased() {
+//     if (key === " ") { 
+//         picoWidth = 100;
+//     }
+// }
+
