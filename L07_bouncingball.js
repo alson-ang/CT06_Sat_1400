@@ -71,7 +71,7 @@ function draw() {
     ballX += ballSpeedX;
     ballY += ballSpeedY;
 
-    // Bounce on edge
+    // Bounce on edge - invert speed
     if (ballX <= 0 || ballX >= width) {
         ballSpeedX *= -1;
     }
