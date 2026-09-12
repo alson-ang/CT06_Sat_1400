@@ -43,5 +43,7 @@ function setup() {
 
 function draw() {
 
-    
+    for (let i = 0; i < favouriteFoods.length; i++) {
+        text
+    }    
 }
