@@ -33,7 +33,8 @@ function setup() {
 
     // Set text size
     textSize(40);
-    // 
+    // Write text on canvas
+    text("")
 }
 
 function draw() {
