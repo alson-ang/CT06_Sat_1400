@@ -45,6 +45,6 @@ function setup() {
 function draw() {
 
     for (let i = 0; i < favouriteFoods.length; i++) {
-        text((i + 1) + ". " + favouriteFoods[i], width / 2, y)
+        text((i + 1) + ". " + favouriteFoods[i], width / 2, yPos + i * 50);
     }    
 }
