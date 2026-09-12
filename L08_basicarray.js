@@ -34,7 +34,7 @@ function setup() {
     // Set text size
     textSize(40);
     // Write text on canvas
-    text("asdasd", width / 2)
+    text("asdasd", width / 2, height / 2); // (str)
 }
 
 function draw() {
