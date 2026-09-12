@@ -66,7 +66,7 @@ function setup() {
 }
 
 function draw() {
-    // 
+    // Reset canvas / clear screen
     background(220);
 
     // Movement
