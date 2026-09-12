@@ -10,11 +10,11 @@ function setup() {
 
 function draw() {
     // Movement
-    squareX += 5;
+    squareX += squareSpeed;
 
     // if square's x pos goes past right side
     if (squareX > width) {
-
+        
     }
 
     fill(255, 255, 0);
