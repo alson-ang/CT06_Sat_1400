@@ -39,6 +39,9 @@ function setup() {
 }
 
 function draw() {
+    // Reset canvas / clear screen
+    background(220);
+
     // Set text size
     textSize(40);
     // Align text
