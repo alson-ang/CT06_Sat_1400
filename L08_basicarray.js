@@ -27,6 +27,8 @@
 //     rect(squareX, squareY, 100, 100); // (x pos, y pos, width, height)
 // }
 
+let favouriteFoods = ["Apple", "Banana", "Cherry"];
+
 function setup() {
     createCanvas(600, 400);
     background(220);
