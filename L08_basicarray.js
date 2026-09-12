@@ -14,7 +14,7 @@ function draw() {
 
     // if square's x pos goes past right side
     if (squareX > width) {
-        squareSpeed *= -1
+        squareSpeed *= -1;
     }
 
     fill(255, 255, 0);
