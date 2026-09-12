@@ -10,6 +10,6 @@ function setup() {
 function draw() {
 
 
-    fill("")
+    fill(255, 255, 0);
     rect(squareX, squareY, 100, 100); // (x pos, y pos, width, height)
 }
