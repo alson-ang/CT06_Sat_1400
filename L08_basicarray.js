@@ -14,7 +14,7 @@ function draw() {
 
     // Movement
     // if square's x pos goes past right or left side
-    if (squareX > width) {
+    if (squareX > width || squareX < 0) {
         squareSpeed *= -1;
     }
 
