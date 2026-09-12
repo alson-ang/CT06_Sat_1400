@@ -31,7 +31,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
 
-    textSize
+    textSize(3)
 }
 
 function draw() {
