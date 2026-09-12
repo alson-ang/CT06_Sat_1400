@@ -67,7 +67,7 @@ function setup() {
 
 function draw() {
     // Reset canvas / clear screen
-    background(220);
+    // background(220);
 
     // Movement
     ballX += ballSpeedX;
