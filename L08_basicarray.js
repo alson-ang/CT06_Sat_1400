@@ -17,6 +17,7 @@ function draw() {
     // width - square size
     if (squareX > width - 100 || squareX < 0) {
         // invert the speed to change directions
+        // positive to negative and negative to positive
         squareSpeed *= -1;
     }
 
