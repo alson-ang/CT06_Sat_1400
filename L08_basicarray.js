@@ -9,12 +9,13 @@ function setup() {
 }
 
 function draw() {
+    
     // Movement
     // if square's x pos goes past right side
     if (squareX > width) {
         squareSpeed *= -1;
     }
-    
+
     squareX += squareSpeed;
 
     fill(255, 255, 0);
