@@ -11,9 +11,9 @@ function setup() {
 function draw() {
     // Reset canvas / clear screen
     background(220);
-    
+
     // Movement
-    // if square's x pos goes past right side
+    // if square's x pos goes past right or left side
     if (squareX > width) {
         squareSpeed *= -1;
     }
