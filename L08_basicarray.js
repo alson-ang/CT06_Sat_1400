@@ -5,5 +5,5 @@ function setup() {
 }
 
 function draw() {
-    rect(300, 200); // (x, y, width, height)
+    rect(width / 2, height / 2); // (x, y, width, height)
 }
