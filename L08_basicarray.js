@@ -34,7 +34,7 @@ function setup() {
     // Set text size
     textSize(40);
     // Align text
-    textAlign
+    textAlign()
     // Write text on canvas
     text("Hello!", width / 2, height / 2); // (string, x pos, y pos)
 }
