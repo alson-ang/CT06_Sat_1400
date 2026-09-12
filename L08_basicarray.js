@@ -34,16 +34,16 @@ function setup() {
     createCanvas(600, 400);
     background(220);
 
+    
+}
+
+function draw() {
     // Set text size
     textSize(40);
     // Align text
     textAlign(CENTER, CENTER); // (horizontal, vertical)
     // Write text on canvas
     text("Hello!", width / 2, height / 2); // (string, x pos, y pos)
-}
-
-function draw() {
-
     for (let i = 0; i < favouriteFoods.length; i++) {
         text((i + 1) + ". " + favouriteFoods[i], width / 2, yPos + i * 50);
     }
