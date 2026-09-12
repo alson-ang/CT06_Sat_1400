@@ -10,5 +10,5 @@ function setup() {
 function draw() {
 
 
-    rect(squareX, height / 2, 100, 100); // (x, y, width, height)
+    rect(squareX, squareY, 100, 100); // (x, y, width, height)
 }
