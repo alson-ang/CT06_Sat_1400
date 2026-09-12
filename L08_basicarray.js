@@ -1,5 +1,5 @@
 // Recap
-let squareX;
+let squareX = ;
 let squareY;
 
 function setup() {
